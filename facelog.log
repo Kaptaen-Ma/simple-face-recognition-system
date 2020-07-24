@@ -1,0 +1,9 @@
+2020-06-02 08:38:06 AM |mainfunction.py| INFO:Application beginn to work...
+2020-06-02 08:38:13 AM |mainfunction.py| ERROR:
+Unable to open camera, please check and restart device
+
+2020-06-02 08:38:15 AM |mainfunction.py| ERROR:
+Unable to open camera, please check and restart device!
+
+2020-06-02 08:38:51 AM |mainfunction.py| INFO:Application beginn to work...
+2020-06-02 08:38:52 AM |mainfunction.py| INFO:successfully open camera!

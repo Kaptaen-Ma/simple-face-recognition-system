@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'load.ui'
+#
+# Created by: PyQt5 UI code generator 5.12
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(526, 389)
+        font = QtGui.QFont()
+        font.setBold(False)
+        font.setItalic(False)
+        font.setUnderline(False)
+        font.setWeight(50)
+        font.setStrikeOut(False)
+        Dialog.setFont(font)
+        Dialog.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
+        icon = QtGui.QIcon.fromTheme("Knoten")
+        Dialog.setWindowIcon(icon)
+        Dialog.setAutoFillBackground(False)
+        self.groupBox = QtWidgets.QGroupBox(Dialog)
+        self.groupBox.setGeometry(QtCore.QRect(30, 20, 471, 351))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.groupBox.setFont(font)
+        self.groupBox.setAutoFillBackground(False)
+        self.groupBox.setObjectName("groupBox")
+        self.pushButton = QtWidgets.QPushButton(self.groupBox)
+        self.pushButton.setGeometry(QtCore.QRect(70, 250, 111, 41))
+        self.pushButton.setAutoFillBackground(True)
+        self.pushButton.setFlat(True)
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(0, 85, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ButtonText, brush)
+        self.pushButton.setPalette(palette)
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton.setFont(font)
+        self.pushButton.setText("Ok")
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.groupBox)
+        self.pushButton_2.setGeometry(QtCore.QRect(262, 250, 111, 41))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.label_2 = QtWidgets.QLabel(self.groupBox)
+        self.label_2.setGeometry(QtCore.QRect(90, 170, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.groupBox)
+        self.lineEdit_2.setGeometry(QtCore.QRect(190, 170, 151, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.lineEdit_2.setFont(font)
+        self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.label = QtWidgets.QLabel(self.groupBox)
+        self.label.setGeometry(QtCore.QRect(90, 90, 81, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.lineEdit = QtWidgets.QLineEdit(self.groupBox)
+        self.lineEdit.setGeometry(QtCore.QRect(190, 90, 151, 21))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.lineEdit.setFont(font)
+        self.lineEdit.setObjectName("lineEdit")
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog.setWindowTitle(_translate("Dialog", "Identity"))
+        self.groupBox.setTitle(_translate("Dialog", "Load"))
+        self.pushButton_2.setText(_translate("Dialog", "Cancel"))
+        self.label_2.setText(_translate("Dialog", "Password"))
+        self.label.setText(_translate("Dialog", "Username"))
+
+
